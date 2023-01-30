@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+section{
+    background-color:#141519;
+    min-height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+.one{
+    background-color: #1E252F;
+    min-height: 50vh;
+    width: 25%;
+    border-radius: 10px;
+    padding: 50px;   
+}
+.one h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+}
+.one p{
+    margin-top: 40px;
+    font-size: 25px;
+    color: #868D97;
+}
+.three{
+    margin-top: 40px;
+}
+.three button{
+    /* padding: 10px 20px; */
+    padding: 10px 9px;
+    border-radius: 40%;
+    margin-top: 20px;
+    margin: 4px;
+    cursor: pointer;
+    background-color: #222B34;
+    border: none;
+    color: #5A636C;
+    font-size: 30px;
+}
+.three button:hover{
+    background-color: #FC7613;
+}
+.two button{
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #FC7613;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+}
+.two button:hover{
+    background-color: white;
+    color: #fc7613;
+}
+.five{
+    background-color: #1E252F;
+    min-height: 50vh;
+    width: 25%;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;   
+}
+.five button{
+    padding: 20px 100px;
+    margin-top: 30px;
+    background-color: #25313C;
+    border: none;
+    border-radius: 30px;
+}
+.five h1{
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.five p{
+    font-size: 30px;
+    color: #5A636C;
+    margin-top: 30px;
+}
+.seven button{
+   padding: 20px 20px;
+   background-color: #242F39;
+   border-radius: 50px ;
+   border: none;
+}
+.second{
+    display: none;
+}
+.all{
+    background-color: white;
+    height: 3vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    width: 100%;
+    font-size: 5px;
+    border-radius: 30px;
+}
+.five svg{
+    height: 10vh;
+}
+.blue{
+    background-color: #FE7512 !important;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .one{
+        background-color: #1E252F;
+        min-height: 50vh;
+        width: 90%;
+        border-radius: 10px;
+        padding: 20px;   
+    }
+    .three button{
+        padding: 20px 15px;
+        border-radius: 40%;
+        margin-top: 20px;
+        margin: 4px;
+        cursor: pointer;
+        background-color: #222B34;
+        border: none;
+        color: #5A636C;
+        font-size: 30px;
+    }
+    .all{
+        font-size: 0px;
+    }
+    .five{
+        background-color: #1E252F;
+        min-height: 50vh;
+        width: 90%;
+        border-radius: 10px;
+        padding: 50px;
+        text-align: center;   
+    }
+          
+}
